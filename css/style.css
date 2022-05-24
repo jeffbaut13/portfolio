@@ -47,6 +47,7 @@ html {
   line-height: 1.15;
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  width: 100vw;
 }
 
 article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
@@ -62,8 +63,32 @@ body {
   color: #6c757d;
   text-align: left;
   background-color: #ffffff;
+  width: 100vw;
 }
+.video-youtube{
+  max-width:700px;
+  min-width:320px;
+  width: 351px;
+  height: 230px;
+}
+@media(max-width:600px){
+  .video-youtube{
+    max-width:420px;
+    min-width:320px;
+  }
+  h1.display-1.text-uppercase.text-white {
+    font-size: 20%;
+}
+  .video-youtube{
+    max-width:400px;
+    min-width:320px;
+    width: 351px;
+    height: 230px;
+  }
+  
 
+
+}
 [tabindex="-1"]:focus:not(:focus-visible) {
   outline: 0 !important;
 }
